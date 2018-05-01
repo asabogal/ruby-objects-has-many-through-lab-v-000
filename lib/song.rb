@@ -8,6 +8,5 @@ class Song
     genre.add_song(self)
 
   end
-binding.pry
 
 end
