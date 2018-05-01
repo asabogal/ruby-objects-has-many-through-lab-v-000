@@ -7,4 +7,3 @@ class Artist
     end
 
 end
-
