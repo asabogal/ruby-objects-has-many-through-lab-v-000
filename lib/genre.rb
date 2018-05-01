@@ -1,9 +1,11 @@
+require 'pry'
 class Genre
 
   attr_accessor :name, :song
     def initialize(name)
       @name = name
       @songs = []
+      binding.pry
     end
 
     def songs
