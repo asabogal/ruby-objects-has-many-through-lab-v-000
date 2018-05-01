@@ -5,7 +5,7 @@ class Genre
     def initialize(name)
       @name = name
       @songs = []
-    
+
     end
 
     def songs
@@ -18,6 +18,7 @@ class Genre
 
     def artists
       self.songs.collect {|song| song.artist}
+      binding.pry
     end
 
 end
