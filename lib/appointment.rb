@@ -7,5 +7,5 @@ class Appointment
   end
 
 
-  
+
 end
