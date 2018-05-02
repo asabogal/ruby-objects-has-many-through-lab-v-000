@@ -3,3 +3,5 @@ attr_accessor :name
     @name = name
     @appointments = []
   end
+
+end
